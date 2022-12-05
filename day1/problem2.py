@@ -26,6 +26,5 @@ d[counter] = current_total
 
 sort = sorted(d.values(), reverse=True)
 
-last = len(sort)
 
 print(sum(sort[:3]))

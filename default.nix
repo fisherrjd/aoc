@@ -18,6 +18,7 @@ let
     python = [
       (python310.withPackages (p: with p; [
         requests
+        typing
       ]))
     ];
   };
